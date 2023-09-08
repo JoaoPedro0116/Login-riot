@@ -107,7 +107,7 @@ h1{
     color: rgb(80, 80, 80);
     font-size: 14px;
     margin-top: 15px;
-    margin-left: 28px;
+    margin-left: 35px;
 
 }
 label{
@@ -183,4 +183,17 @@ h6{
     margin-left: 20px;
     margin-right: 20px;
 }
+@media (max-width: 600px) {
+    .fter{
+     display: none;
+    
+    }
+    main {
+        width: 480px;
+        height: 590px;
+        background-color: white;
+        margin: -5% auto; /* Define margens automáticas para alinhar horizontalmente */
+          
+    }
 
+  }
